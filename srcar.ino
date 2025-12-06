@@ -48,9 +48,9 @@ void setup() {
   oled.clear();                 //เคลียร์หน้าจอ
   oled.mode(0);                 //หมุนหน้าจอ 0 องศา
   oled.textSize(1);             //กำหนดขนาดตัวอักษร
-  oled.text(0,0,"  Ubon TP Robotics"); //กำหนดข้อความที่จะแสดง
-  oled.text(1,0,"Tour Sisaket Robot ");
-  oled.text(2,0,"  Kumpang B  ");  
+  oled.text(0,0,"KP team"); //กำหนดข้อความที่จะแสดง
+  oled.text(1,0,"Win win win");
+  oled.text(2,0,"  Kampheang ดิวะ  ");  
   oled.text(3,0,"     Speed = %d   ",Speed);
   oled.text(4,0,"     ACCSpeed=%d",ACCSpeed);
   oled.text(5,0,"     OK to Start ");
@@ -170,3 +170,4 @@ void loop()
   BoxJ_I(); //J&I
   Finish();
 }
+
