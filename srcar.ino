@@ -165,9 +165,9 @@ void setup() {
 
 void loop() 
 {
-  // put your main code here, to run repeatedly:
   Box1_2(); //ข และ ก
   BoxJ_I(); //J&I
   Finish();
 }
+
 
